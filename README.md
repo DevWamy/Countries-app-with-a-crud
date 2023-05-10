@@ -43,35 +43,34 @@ yarn
 - Start the application
  
 ```bash
-For backend :
+
+For backend:
+You have to install JSON-SERVER :
 open a new terminal and run `cd BackEnd` command,
-npm run start
-# or
-npm start
-# with Yarn
-yarn dev
-the backend will open http://localhost:3000
+then enter this command:
+`npm i -g json-server`
+
+To run the back-end :
+Enter this command: 
+`npm run server`
+The backend will open http://localhost:3003
+
+( `json-server --w src/assets/db.json --port 3003`)
+
 ```
 
 ```bash
+
 For frontEnd :
-open a new terminal,
+Open a new terminal,
+then enter this command:
 npm run start
 # or
 npm start
-# with Yarn
-yarn start 
-will allow you to run the application on http://localhost:3001
+
+It will allow you to run the application on http://localhost:3001
+
  ```
-
----
-Backend:
-
-
-Install JSON-SERVER : `npm i -g json-server`
-
-Run back-end : `json-server --w src/assets/db.json --port 3003`
-
 
 
 ### Added dependencies
@@ -79,7 +78,7 @@ Run back-end : `json-server --w src/assets/db.json --port 3003`
 - ![GitHub package.json dependency version (prod)](https://img.shields.io/npm/v/react?color=blueviolet&label=react)
 
 ---
-dev dependencies:
+### Dev dependencies:
 
 - ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/npm/v/sass?color=ff64b2&label=sass)
 - ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/npm/v/prettier?color=blueviolet&label=prettier)
