@@ -6,7 +6,7 @@
 - ![GitHub top language](https://img.shields.io/github/languages/top/DevWamy/P12_SportSee?color=ff64b2)
 - ![GitHub language count](https://img.shields.io/github/languages/count/DevWamy/P12_SportSee?color=blueviolet)
 
-  For a rendering, click here: [Render] (countries-eight-jade.vercel.app)
+  For a rendering, click here: [Render] (https://countries-eight-jade.vercel.app/)
 
 ## Frontend
 
